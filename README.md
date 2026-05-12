@@ -109,11 +109,11 @@ XGBoost model interpreted via SHAP TreeExplainer:
 
 The chart below shows the top 20 features ranked by mean absolute SHAP value. Rolling standard deviation features dominate, confirming that the rate of change in sensor readings is more predictive than the readings themselves.
 
-![SHAP Top 20 Features](results/shap_top20_features.png)
+![SHAP Top 20 Features](results/shap_global_bar.png)
 
 The waterfall chart below breaks down a single engine's prediction, showing exactly which features pushed the RUL estimate up or down from the model's baseline.
 
-![SHAP Waterfall — Critical Engine](results/shap_waterfall_crit.png)
+![SHAP Waterfall — Critical Engine](results/shap_waterfall_critical.png)
 
 ---
 
