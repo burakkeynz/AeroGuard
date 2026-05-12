@@ -1,0 +1,6 @@
+Model,RMSE,MAE,NASA_Score
+Random Forest,1.5,0.74,327.5
+XGBoost,1.72,0.99,427.2
+Linear Regression,9.46,7.55,5115.3
+Ridge Regression,11.05,8.86,6567.2
+LSTM,14.47,10.24,17344.19921875
