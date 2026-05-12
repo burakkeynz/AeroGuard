@@ -1,0 +1,42 @@
+# Data
+data/
+
+# Trained models 
+results/models/
+
+# Interactive HTML outputs 
+results/*.html
+
+# All other result files except selected PNGs and CSV
+results/alert_timeline.png
+results/benchmark_chart*.png
+results/confusion_matrix_p*.png
+results/degradation_curve*.png
+results/feature_engineering*.png
+results/lstm_training_curve*.png
+results/precision_recall*.png
+results/rul_labels.png
+results/sensor_correlation*.png
+results/shap_dependence*.png
+results/shap_global_bar.png
+results/shap_summary*.png
+results/xgb_predictions.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
