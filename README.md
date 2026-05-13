@@ -156,7 +156,7 @@ The chart below compares LSTM-predicted RUL against ground truth for a sample of
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/AeroGuard.git
+git clone https://github.com/burakkeynz/AeroGuard.git
 cd AeroGuard
 pip install -r requirements.txt
 ```
